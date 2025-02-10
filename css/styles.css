@@ -48,7 +48,6 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: url('images/hero.jpg') no-repeat center center/cover;
     text-align: center;
     padding: 4rem 2rem;
 }
