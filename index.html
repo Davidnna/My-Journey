@@ -3,58 +3,73 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/JPG" href="images/image1.jpg">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" type="image/jpg" href="images/image1.jpg">
+        <!-- <link rel="icon" type="image/jpg" href="https://i.postimg.cc/SNHXDn4c/image1.jpg"> -->
+        <link rel="stylesheet" href="styles/styles.css">
         <title>My Journey in the IDEAS Program</title>
     </head>
     <body>
+        <!-- Header -->
         <header>
             <h1>Welcome to My Journey</h1>
+            <p id="show-menu" onclick="show()">Click to Show Menu</p>
+            <!-- Navbar -->
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="learning.html">Learning Experience</a></li>
-                    <li><a href="challenges.html">Challenges</a></li>
-                    <li><a href="triumphs.html">Triumphs</a></li>
-                    <li><a href="aspirations.html">Aspirations</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="Learning/">Learning Experience</a></li>
+                    <li><a href="Challenges/">Challenges</a></li>
+                    <li><a href="Triumphs/">Triumphs</a></li>
+                    <li><a href="Aspirations/">Aspirations</a></li>
+                    <li><a href="About/">About</a></li>
                 </ul>
             </nav>
         </header>
+        <!-- Main -->
         <main>
+            <!-- Hero -->
             <section class="hero">
-                <img src="images/image1.jpg" alt="About Me Image">
+                <figure>
+                    <!-- <img src="images/image1.jpg" alt="About Me Image"> -->
+                    <img src="https://i.postimg.cc/SNHXDn4c/image1.jpg" alt="About Me Image">
+                </figure>
                 <h2>Embark on a Journey of Learning and Growth</h2>
                 <p>Join me as I navigate through the IDEAS program, sponsored by the World Bank and the Ministry of Education, and organized by Spotless Digital Technologies Limited.</p>
-                <a href="learning.html" class="btn">Explore My Learning Experience</a>
+                <a href="Learning/" class="btn">Explore My Learning Experience</a>
             </section>
+            <!-- Highlights -->
             <section class="highlights">
+                <!-- Learning -->
                 <h2>Highlights of My Journey</h2>
                 <div class="highlight">
                     <h3>Learning Experience</h3>
                     <p>Discover the skills and knowledge I have acquired throughout the program.</p>
-                    <a href="learning.html" class="btn">Learn More</a>
+                    <a href="Learning/" class="btn">Learn More</a>
                 </div>
+                <!-- Challenges -->
                 <div class="highlight">
                     <h3>Challenges</h3>
                     <p>Read about the obstacles I faced and how I overcame them.</p>
-                    <a href="challenges.html" class="btn">Read More</a>
+                    <a href="Challenges/" class="btn">Read More</a>
                 </div>
+                <!-- Triumphs -->
                 <div class="highlight">
                     <h3>Triumphs</h3>
                     <p>Celebrate the successes and milestones achieved during my journey.</p>
-                    <a href="triumphs.html" class="btn">Celebrate with Me</a>
+                    <a href="Triumphs/" class="btn">Celebrate with Me</a>
                 </div>
+                <!-- Aspirations -->
                 <div class="highlight">
                     <h3>Aspirations</h3>
                     <p>Look forward to my future goals and aspirations.</p>
-                    <a href="aspirations.html" class="btn">See My Aspirations</a>
+                    <a href="Aspirations/" class="btn">See My Aspirations</a>
                 </div>
             </section>
-            <div class="div"></div>
         </main>
+        <!-- Footer -->
         <footer>
             <p>© 2024 My Journey in the IDEAS Program</p>
         </footer>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
